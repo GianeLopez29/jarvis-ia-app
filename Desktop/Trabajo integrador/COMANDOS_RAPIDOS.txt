@@ -1,0 +1,130 @@
+===========================================
+  COMANDOS RÁPIDOS - COPIAR Y PEGAR
+===========================================
+
+📦 INSTALAR DEPENDENCIAS
+===========================================
+
+Backend:
+cd backend
+npm install
+
+Frontend:
+cd frontend
+npm install
+
+
+🗄️ POBLAR BASE DE DATOS
+===========================================
+
+cd backend
+node seed.js
+
+
+▶️ INICIAR APLICACIÓN
+===========================================
+
+Terminal 1 - Backend:
+cd backend
+npm start
+
+Terminal 2 - Frontend:
+cd frontend
+npm start
+
+
+🌐 URLs
+===========================================
+
+Frontend: http://localhost:3000
+Backend: http://localhost:5000
+API Test: http://localhost:5000/api/canchas
+
+
+⚙️ CONFIGURAR MONGODB (backend/.env)
+===========================================
+
+Local:
+MONGODB_URI=mongodb://localhost:27017/canchas
+
+Atlas:
+MONGODB_URI=mongodb+srv://usuario:password@cluster.mongodb.net/canchas
+
+
+📧 CONFIGURAR EMAIL (Opcional - backend/.env)
+===========================================
+
+EMAIL_USER=tu_email@gmail.com
+EMAIL_PASS=tu_contraseña_de_aplicacion
+
+
+🧪 PROBAR LA APLICACIÓN
+===========================================
+
+1. Abrir: http://localhost:3000
+2. Clic en "Canchas"
+3. Ver las 10 canchas con promociones
+4. Clic en "Ver Detalles" de cualquier cancha
+5. Observar el cálculo de precio en tiempo real
+6. Registrarse como nuevo usuario
+7. Hacer una reserva
+8. Ver "Mis Reservas"
+
+
+🎯 CARACTERÍSTICAS DESTACADAS
+===========================================
+
+✅ 10 canchas con imágenes reales
+✅ 8 tipos de deportes
+✅ 7 promociones activas (15%-30% OFF)
+✅ Servicios adicionales (indumentaria, buffet, árbitro, pelota)
+✅ Instalaciones diferenciadas (vestidores vs vestidores+duchas)
+✅ Precio dinámico en tiempo real
+✅ Diseño responsivo (320px-2000px)
+
+
+💰 EJEMPLOS DE PRECIOS
+===========================================
+
+Fútbol Papi: $2,000/h → $1,500/h (25% OFF)
+Futsal Premium: $2,500/h → $2,125/h (15% OFF)
+Fútbol 11: $8,000/h → $6,400/h (20% OFF)
+
++ Servicios adicionales
++ Cargo por duchas (+$500/h en canchas premium)
+
+
+📚 DOCUMENTACIÓN
+===========================================
+
+INICIO_RAPIDO.md - Guía de inicio en 3 pasos
+RESUMEN_EJECUTIVO.md - Resumen completo del proyecto
+VERIFICACION_COMPLETA.md - Tests y verificaciones
+INSTRUCCIONES.md - Guía detallada
+README.md - Documentación general
+
+
+🐛 SOLUCIÓN RÁPIDA DE PROBLEMAS
+===========================================
+
+Error MongoDB:
+- Verifica MONGODB_URI en backend/.env
+- Si usas Atlas, permite tu IP en Network Access
+
+Error Puerto 5000:
+- Cambia PORT=5001 en backend/.env
+
+No se ven canchas:
+- Ejecuta: node seed.js
+- Verifica que backend esté corriendo
+
+
+✅ ESTADO DEL PROYECTO
+===========================================
+
+🎉 PROYECTO 100% COMPLETO Y FUNCIONAL
+🚀 LISTO PARA USAR
+📱 RESPONSIVE DESIGN
+🔐 SEGURO Y VALIDADO
+💰 PRECIOS DINÁMICOS IMPLEMENTADOS
+🎁 PROMOCIONES ACTIVAS
